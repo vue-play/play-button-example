@@ -14,7 +14,7 @@ module.exports = {
   html: [{
     chunks: ['app'],
     filename: 'index.html',
-    title: pkg.title
+    title: pkg.name
   }, {
     chunks: ['preview'],
     filename: 'preview.html'
