@@ -1,3 +1,4 @@
+const pkg = require('./package')
 
 module.exports = {
   entry: {
@@ -12,7 +13,8 @@ module.exports = {
   vendor: false,
   html: [{
     chunks: ['app'],
-    filename: 'index.html'
+    filename: 'index.html',
+    title: pkg.title
   }, {
     chunks: ['preview'],
     filename: 'preview.html'
