@@ -17,5 +17,6 @@ module.exports = {
     chunks: ['preview'],
     filename: 'preview.html'
   }],
+  // For deployment only, resources are fetched from this path instead of root
   homepage: '/play-button-example/'
 }

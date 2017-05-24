@@ -1,4 +1,7 @@
 {
+  "private": true,
+  "name": "play-button-example",
+  "version": "0.0.0",
   "scripts": {
     "play": "poi --config play.config.js",
     "build:play": "poi build --config play.config.js",
@@ -6,7 +9,7 @@
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "poi": "^8.0.0",
+    "poi": "^8.0.8",
     "vue-play": "^3.2.1"
   },
   "dependencies": {

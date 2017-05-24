@@ -17,7 +17,7 @@ import Button from '../components/Button.vue'
 // Add various scenarios
 play(Button)
   .add('with text', {
-    template: `<my-button text="With Text" />`
+    template: `<my-button @click.native="$log('with text')" text="With Text" />`
   })
   .add('with emoji', {
     template: `<my-button text="Cool Emoji 😎" />`
